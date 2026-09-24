@@ -544,7 +544,7 @@ polymarket-execution-verifier/
 
 # Development roadmap
 
-## Phase 1 — Execution model
+## Phase 1 - Execution model
 
 * [ ] Order state model
 * [ ] Trade state model
@@ -552,7 +552,7 @@ polymarket-execution-verifier/
 * [ ] Position state model
 * [ ] Explicit lifecycle transitions
 
-## Phase 2 — Verification
+## Phase 2 - Verification
 
 * [ ] Match order and trade records
 * [ ] Track execution status
@@ -560,7 +560,7 @@ polymarket-execution-verifier/
 * [ ] Detect incomplete execution
 * [ ] Produce verification result
 
-## Phase 3 — Reconciliation
+## Phase 3 - Reconciliation
 
 * [ ] Detect mismatches
 * [ ] Recover after disconnect
@@ -568,14 +568,14 @@ polymarket-execution-verifier/
 * [ ] Re-check pending executions
 * [ ] Persist verification history
 
-## Phase 4 — Risk integration
+## Phase 4 - Risk integration
 
 * [ ] Expose verification state to risk engine
 * [ ] Block trading on critical mismatch
 * [ ] Configurable recovery policy
 * [ ] Execution uncertainty thresholds
 
-## Phase 5 — Observability
+## Phase 5 - Observability
 
 * [ ] Structured logs
 * [ ] Execution timeline
