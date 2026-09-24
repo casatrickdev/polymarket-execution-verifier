@@ -2,7 +2,8 @@
 
 > Verify Polymarket trade state across order, fill, transaction, and settlement stages.
 
-GitHub: [polymarket execution verifier](https://github.com/casatrickdev/polymarket-execution-verifier)
+Substack: [A Polymarket Fill Isn’t the End: Verifying Execution and Settlement](https://casatrick.substack.com/p/polymarket-execution-verification)
+
 Automated trading systems often treat:
 
 ```text
