@@ -2,6 +2,7 @@
 
 > Verify Polymarket trade state across order, fill, transaction, and settlement stages.
 
+GitHub: [polymarket execution verifier](https://github.com/casatrickdev/polymarket-execution-verifier)
 Automated trading systems often treat:
 
 ```text
@@ -771,3 +772,11 @@ Casatrick builds trading, data, and automation systems for Polymarket, with a fo
 This project explores one of the less visible problems in automated trading:
 
 **knowing what actually happened after an order was sent.**
+
+## Explore the project
+
+The implementation is evolving around execution verification, reconciliation, and failure handling for automated Polymarket trading systems.
+
+If you're building a Polymarket trading system and dealing with execution state, reconciliation, or reliability problems, feel free to open an issue or start a discussion.
+
+**Build the strategy. Verify the execution. Trust the state.**
