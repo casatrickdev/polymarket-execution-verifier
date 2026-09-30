@@ -4,7 +4,7 @@
 
 Substack: [A Polymarket Fill Isn’t the End: Verifying Execution and Settlement](https://casatrick.substack.com/p/polymarket-execution-verification)
 
-Automated trading systems often treat:
+Automated trading systems  treat:
 
 ```text
 ORDER FILLED
