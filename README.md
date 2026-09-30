@@ -169,7 +169,6 @@ Order:
   price
   size
 ```
-
 ### What was matched?
 
 ```text
@@ -178,6 +177,11 @@ Trade:
   matched_size
   execution_price
 ```
+
+## Engineering Notes
+
+[Polymarket Execution Verification: When "Filled" Doesn't Mean Settled](https://dev.to/casatrick/polymarket-execution-verification-when-filled-doesnt-mean-settled-15ni)
+
 
 ### What happened on-chain?
 
