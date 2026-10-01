@@ -1,0 +1,42 @@
+[package]
+name = "polymarket-execution-verifier"
+version = "0.1.0"
+edition = "2021"
+rust-version = "1.88"
+description = "Polymarket execution verification: order → fill → transaction → settlement → position"
+license = "MIT OR Apache-2.0"
+readme = "README.md"
+
+[lib]
+name = "polymarket_execution_verifier"
+path = "src/lib.rs"
+
+[[bin]]
+name = "polymarket-execution-verifier"
+path = "src/main.rs"
+
+[[example]]
+name = "basic_verification"
+path = "examples/basic_verification.rs"
+
+[features]
+default = []
+polymarket-sdk = ["dep:polymarket_client_sdk_v2"]
+
+[dependencies]
+chrono = { version = "0.4", features = ["serde"] }
+rust_decimal = { version = "1.39", features = ["serde"] }
+serde = { version = "1.0", features = ["derive"] }
+serde_json = "1.0"
+thiserror = "2.0"
+tokio = { version = "1.48", features = ["macros", "rt-multi-thread", "sync"] }
+tracing = "0.1"
+tracing-subscriber = { version = "0.3", features = ["env-filter", "fmt"] }
+uuid = { version = "1.18", features = ["v4", "serde"] }
+async-trait = "0.1"
+rusqlite = { version = "0.37", features = ["bundled"] }
+
+polymarket_client_sdk_v2 = { version = "0.7", optional = true, default-features = false, features = ["data"] }
+
+[dev-dependencies]
+tokio-test = "0.4"
