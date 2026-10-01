@@ -36,6 +36,22 @@ The goal is simple:
 
 ---
 
+## Production Engineering
+
+This repository focuses on the infrastructure between a trading signal
+and the final account state.
+
+- Execution safety
+- Partial-fill handling
+- Position and exposure tracking
+- Risk controls
+- Wallet circuit breakers
+- Monitoring
+- Recovery
+- Order-book replay backtesting
+
+---
+
 ## Why this exists
 
 A trading bot can receive a successful order response and still have uncertainty about what happened afterward.
@@ -770,13 +786,16 @@ Contributions and architecture feedback are welcome, especially around:
 
 ---
 
-## About Casatrick
+## Related Infrastructure
 
-Casatrick builds trading, data, and automation systems for Polymarket, with a focus on execution, real-time infrastructure, reliability, risk, and production engineering.
+Trading Bot
+https://github.com/casatrickdev/polymarket-trading-bot
 
-This project explores one of the less visible problems in automated trading:
+Execution Verifier
+https://github.com/casatrickdev/polymarket-execution-verifier
 
-**knowing what actually happened after an order was sent.**
+Trading Control Plane
+https://github.com/casatrickdev/polymarket-trading-control-plane
 
 ## Explore the project
 
